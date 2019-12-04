@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/card_View"
+    card_view:cardCornerRadius="5dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fui_bgGitHub"
+        android:id="@+id/cardback">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/audio_description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text=" "
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/playPause_button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/pay_image" />
+
+        <ProgressBar
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/progress_play"
+            android:visibility="invisible"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:layout_alignParentBottom="true"
+            android:max="1000"
+            android:paddingStart="0dip"
+            android:paddingEnd="0dip"
+            android:progress="0"
+            android:progressDrawable="@drawable/seekbar_track"
+            android:thumb="@drawable/seekbar_thumb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_alignParentBottom="true"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/isFav"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_favorite_border_black_24dp" />
+
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="45dp"
+            android:src="@drawable/ic_file_download_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="20 K"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

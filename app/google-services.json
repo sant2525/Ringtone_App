@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "312391400362",
+    "firebase_url": "https://ringtoneapp-4fcae1.firebaseio.com",
+    "project_id": "ringtoneapp-4fcae1",
+    "storage_bucket": "ringtoneapp-4fcae1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312391400362:android:43cedfc890235ed35249d3",
+        "android_client_info": {
+          "package_name": "com.devloper.ringtone_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312391400362-pheqr8144qtg8vsehubdan6qfljv4op8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devloper.ringtone_app",
+            "certificate_hash": "b323a3712edd49e9083224f31cc72359d02adeae"
+          }
+        },
+        {
+          "client_id": "312391400362-p59f0b8mj5rrn3rpagbe82ado4ad3j5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devloper.ringtone_app",
+            "certificate_hash": "70614709074f7add089077d8859217eb704ce761"
+          }
+        },
+        {
+          "client_id": "312391400362-t5r73a56gi1a13s0s55p3v798ivj8ok2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6XULbyAtgEczxInSpmE17b-OISgniZXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312391400362-t5r73a56gi1a13s0s55p3v798ivj8ok2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
